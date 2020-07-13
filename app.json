@@ -1,0 +1,12 @@
+{
+  "name": "Prove09: Node.js",
+  "description": "Prove09 Node.js app using Express 4",
+  "repository": "https://github.com/scpearson94/prove09",
+  "keywords": ["node", "express", "heroku"],
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs"
+    }
+  ],
+  "image": "heroku/nodejs"
+}
